@@ -1,0 +1,41 @@
+0 — переключить
+1 A B e — интеграл
+2 x — перевод
+dtrace: error on enabled probe ID 1718 (ID 965: syscall::write_nocancel:return): invalid kernel access in action #13 at DIF offset 68
+ 6125/0x43179:  thread_selfid(0x0, 0x0, 0x0)		 = 274809 0
+ 6125/0x43179:  open(".\0", 0x100000, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/\0", 0x20100000, 0x0)		 = 3 0
+ 6125/0x43179:  openat(0x3, "System/Cryptexes/OS\0", 0x100000, 0x0)		 = 4 0
+ 6125/0x43179:  openat(0x4, "System/Library/dyld/\0", 0x100000, 0x0)		 = 6 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  close(0x5)		 = 0 0
+ 6125/0x43179:  close(0x4)		 = 0 0
+ 6125/0x43179:  close(0x6)		 = 0 0
+ 6125/0x43179:  close(0x8)		 = 0 0
+ 6125/0x43179:  close(0x7)		 = 0 0
+ 6125/0x43179:  open("/Users/sedimav/Desktop/\320\236\320\241/LAB4/prog2\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/Users/sedimav/Desktop/\320\236\320\241/LAB4/prog2\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/dev/dtracehelper\0", 0x2, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  bsdthread_register(0x7FF809B61848, 0x7FF809B61834, 0x2000)		 = 1073742303 0
+ 6125/0x43179:  shm_open(0x7FF8099F4CE1, 0x0, 0x99F3121)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/Users/sedimav/Desktop/\320\236\320\241/LAB4\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/Users/sedimav/Desktop/\320\236\320\241/LAB4/Info.plist\0", 0x0, 0x0)		 = -1 2
+ 6125/0x43179:  open("./libsin1.so\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("./libsin1.so\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/Users/sedimav/Desktop/\320\236\320\241/LAB4/libsin1.so\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("./libconv1.so\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("./libconv1.so\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  open("/Users/sedimav/Desktop/\320\236\320\241/LAB4/libconv1.so\0", 0x0, 0x0)		 = 3 0
+ 6125/0x43179:  close(0x3)		 = 0 0
+ 6125/0x43179:  read_nocancel(0x0, "\0", 0x1000)		 = -1 4
